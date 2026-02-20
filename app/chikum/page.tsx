@@ -63,7 +63,7 @@ export default function PromoPage() {
         const data = await res.json();
 
         if (data.success) {
-          setPemenangKe(data.count);
+          setPemenangKe(data.remaining ?? 0);
           setStatus('success');
         } else if (data.already) {
           setStatus('already');
