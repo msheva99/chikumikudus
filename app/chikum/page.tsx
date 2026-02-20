@@ -98,7 +98,7 @@ export default function PromoPage() {
       <div className="relative flex min-h-screen items-center justify-center p-4 overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/images/1.png"
+            src="/images/tampilan_diskon.png"
             alt="Background"
             fill
             className="object-cover"
@@ -122,7 +122,7 @@ export default function PromoPage() {
       <div className="relative flex min-h-screen items-center justify-center p-4 overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/images/1.png"
+            src="/images/tampilan_diskon.png"
             alt="Background"
             fill
             className="object-cover"
@@ -141,13 +141,14 @@ export default function PromoPage() {
           </div>
 
           <h1 className="text-lg font-black text-gray-900 mb-1 leading-tight uppercase">
-            YEAY! <br />
-            <span className="text-orange-600 text-2xl block">Diskon Khusus</span>
-            Untuk Kamu
+            PROMO SPESIAL<br />
+            <span className="text-orange-600 text-2xl block">RAMADHAN</span>
           </h1>
 
           <p className="text-xs font-medium text-gray-600 mb-3">
-            Nikmati <span className="text-orange-600 font-bold text-base px-1">DISKON 15%</span> <br /> dari Chikumi.
+            Berbuka makin hemat & nikmat!<br />
+            Nikmati <span className="text-orange-600 font-bold text-base px-1">DISKON 15%</span> menu favoritmu di Chikumi.<br />
+            <span className="text-[10px] text-gray-400 italic">Cocok untuk buka puasa bareng keluarga & bestie!</span>
           </p>
 
           {/* Jam Digital Real-time (Anti-Screenshot) */}
@@ -172,14 +173,12 @@ export default function PromoPage() {
             </a>
           </div>
 
-          <div className="bg-orange-50/80 rounded-xl p-2 mb-4 border border-orange-100">
-            <p className="text-gray-700 text-[10px] font-medium">
-              Pelanggan ke-{' '}
-              <span className="inline-block bg-orange-500 text-white px-2 py-0.5 rounded-full font-bold mx-1 shadow-sm text-xs">
-                {pemenangKe}
-              </span>{' '}
-              yang beruntung!
-            </p>
+          <div className="bg-[#5C4033] rounded-2xl py-3 mb-4 text-white shadow-lg relative overflow-hidden">
+            <div className="flex justify-center items-baseline gap-1.5 relative z-10">
+              <span className="text-3xl font-black tabular-nums">{String(pemenangKe).padStart(2, '0')}</span>
+              <span className="text-xs font-bold">ORANG LAGI</span>
+            </div>
+            <div className="absolute inset-0 bg-white/5 animate-pulse"></div>
           </div>
 
           <div className="bg-gradient-to-br from-orange-500 to-red-600 rounded-xl p-3 text-white shadow-md">
@@ -201,7 +200,7 @@ export default function PromoPage() {
       <div className="relative flex min-h-screen items-center justify-center p-4 overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/images/1.png"
+            src="/images/tampilan_diskon.png"
             alt="Background"
             fill
             className="object-cover"
@@ -238,7 +237,7 @@ export default function PromoPage() {
     <div className="relative flex min-h-screen items-center justify-center p-4 overflow-hidden">
       <div className="absolute inset-0 w-full h-full">
         <Image
-          src="/images/1.png"
+          src="/images/tampilan_diskon.png"
           alt="Background"
           fill
           className="object-cover"
